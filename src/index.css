@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --darkblue: #1b1b2f;
+    --teal-400: #20c997;
+  }
+  .bg-darkblue {
+    background-color: var(--darkblue);
+  }
+  .text-darkblue {
+    color: var(--darkblue);
+  }
+  .text-teal-400 {
+    color: var(--teal-400);
+  }
+  .bg-teal-400 {
+    background-color: var(--teal-400);
+  }
