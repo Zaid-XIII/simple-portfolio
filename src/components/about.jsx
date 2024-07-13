@@ -16,6 +16,9 @@ const AboutSection = () => {
   return (
 
     <main className="container mx-auto px-6 py-12 flex items-center justify-between">
+      <div className="relative">
+        <img src="./public/static assets-bro.svg" alt="Designer illustration" className="w-96 h-96 object-cover" />        </div>
+    
       <div className="max-w-lg">
         <h1 className="text-5xl font-bold mb-4">
           About <span className="text-teal-400">me</span>
@@ -35,9 +38,7 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="relative">
-        <img src="./public/static assets-bro.svg" alt="Designer illustration" className="w-96 h-96 object-cover" />        </div>
-    </main>
+      </main>
   );
 };
 

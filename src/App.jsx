@@ -2,6 +2,7 @@ import Navbar1 from './components/navbar'
 import MainSection from './components/main'
 import AboutSection from './components/about'
 import './App.css'
+import WorkSection from './components/work'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar1/>
       <MainSection></MainSection>
       <AboutSection></AboutSection>
+      <WorkSection></WorkSection>
     </div>
   )
 }
