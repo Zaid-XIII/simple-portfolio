@@ -8,7 +8,7 @@ import WorkSection from './components/work'
 function App() {
 
   return (
-    <div className='bg-gray-900 min-h-screen text-white px-12'>
+    <div className='bg-gray-900 min-h-screen text-white px-12 overflow-x-hidden'>
       <Navbar1/>
       <MainSection></MainSection>
       <AboutSection></AboutSection>
